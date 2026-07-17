@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-17T16:51:22 IDT" name="Default suite" finished-at="2026-07-17T16:51:38 IDT" duration-ms="15901">
+  <suite started-at="2026-07-17T17:31:10 IDT" name="Default suite" finished-at="2026-07-17T17:31:37 IDT" duration-ms="26781">
     <groups>
     </groups>
-    <test started-at="2026-07-17T16:51:22 IDT" name="Default test" finished-at="2026-07-17T16:51:38 IDT" duration-ms="15901">
-      <class name="mainTesting.CalculatorOperations">
-        <test-method is-config="true" signature="setup()[pri:0, instance:mainTesting.CalculatorOperations@5884a914]" started-at="2026-07-17T16:51:22 IDT" name="setup" finished-at="2026-07-17T16:51:22 IDT" duration-ms="21" status="PASS">
+    <test started-at="2026-07-17T17:31:10 IDT" name="Default test" finished-at="2026-07-17T17:31:37 IDT" duration-ms="26781">
+      <class name="mainTesting.MathematicalCalculations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mainTesting.MathematicalCalculations@60f00693]" started-at="2026-07-17T17:31:10 IDT" name="setup" finished-at="2026-07-17T17:31:10 IDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addTwoNumber()[pri:0, instance:mainTesting.CalculatorOperations@5884a914]" started-at="2026-07-17T16:51:22 IDT" name="addTwoNumber" finished-at="2026-07-17T16:51:38 IDT" duration-ms="15836" status="PASS">
+        <test-method signature="Opterations()[pri:0, instance:mainTesting.MathematicalCalculations@60f00693]" started-at="2026-07-17T17:31:10 IDT" name="Opterations" finished-at="2026-07-17T17:31:37 IDT" duration-ms="26719" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addTwoNumber -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:mainTesting.CalculatorOperations@5884a914]" started-at="2026-07-17T16:51:38 IDT" name="afterTest" finished-at="2026-07-17T16:51:38 IDT" duration-ms="1" status="PASS">
+        </test-method> <!-- Opterations -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:mainTesting.MathematicalCalculations@60f00693]" started-at="2026-07-17T17:31:37 IDT" name="afterTest" finished-at="2026-07-17T17:31:37 IDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- mainTesting.CalculatorOperations -->
+      </class> <!-- mainTesting.MathematicalCalculations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

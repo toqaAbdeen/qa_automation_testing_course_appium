@@ -38,4 +38,20 @@ public class Actions extends Parameters {
 
 		}
 	}
+
+	// PROJECT
+
+	public void calculateForTwoNumbers(String operation, String num1, String num2) {
+		driver.findElement(By.id("com.google.android.calculator:id/digit_" + num1)).click();
+		driver.findElement(By.id("com.google.android.calculator:id/op_" + operation)).click();
+		driver.findElement(By.id("com.google.android.calculator:id/digit_" + num2)).click();
+		driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
+	}
+
+	public void calculateForOneNumbers(String operation, String num1) {
+		driver.findElement(By.id("com.google.android.calculator:id/op_" + operation)).click();
+		driver.findElement(By.id("com.google.android.calculator:id/digit_" + num1)).click();
+		driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
+
+	}
 }
