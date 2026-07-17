@@ -29,19 +29,14 @@ public class MathematicalCalculations extends Parameters {
 		var appiumServerUrl = URI.create("http://127.0.0.1:4723/wd/hub").toURL();
 		driver = new AndroidDriver(appiumServerUrl, caps);
 		operation.calculateForTwoNumbers("sub", "8", "1");
-		operation.takeScreenShot();
-		
+		operation.clear();
 		operation.calculateForTwoNumbers("mul", "8", "1");
-		operation.takeScreenShot();
-		
+		operation.clear();
 		operation.calculateForOneNumbers("sqrt", "9");
-		operation.takeScreenShot();
-
+		operation.clear();
 		operation.calculateForTwoNumbers("pow", "8", "2");
-		operation.takeScreenShot();
-
+		operation.clear();
 		operation.calculateForOneNumbers("fact", "5");
-		operation.takeScreenShot();
 	}
 
 	@AfterTest

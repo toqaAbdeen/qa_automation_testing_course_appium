@@ -49,9 +49,20 @@ public class Actions extends Parameters {
 	}
 
 	public void calculateForOneNumbers(String operation, String num1) {
-		driver.findElement(By.id("com.google.android.calculator:id/op_" + operation)).click();
-		driver.findElement(By.id("com.google.android.calculator:id/digit_" + num1)).click();
-		driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
 
+		if (operation.equals("sqrt")) {
+			driver.findElement(By.id("com.google.android.calculator:id/op_" + operation)).click();
+			driver.findElement(By.id("com.google.android.calculator:id/digit_" + num1)).click();
+
+		} else if (operation.equals("fact")) {
+			driver.findElement(By.id("com.google.android.calculator:id/digit_" + num1)).click();
+			driver.findElement(By.id("com.google.android.calculator:id/op_" + operation)).click();
+		}
+
+		driver.findElement(By.id("com.google.android.calculator:id/eq")).click();
+	}
+
+	public void clear() {
+		driver.findElement(By.id("com.google.android.calculator:id/clr")).click();
 	}
 }
